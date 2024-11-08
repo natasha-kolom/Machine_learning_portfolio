@@ -6,6 +6,13 @@ Welcome to my Machine Learning Portfolio! This repository showcases various proj
 
 ## Project List
 
+### Bank deposit forecasting project
+
+- **Directory**: 'Bank deposit forecasting project'
+- **Description**: The main objective of this project is to build a model to predict whether a customer will open a term deposit in a bank. For this task, we used a dataset from the UCI Machine Learning Repository, which contains data related to direct marketing campaigns (phone calls) of a Portuguese banking institution. The goal is to predict customer responses to marketing efforts and optimize bank strategies to increase the number of term deposits.
+- **Methods**: We implemented SMOTE and RandomUnderSampler to address class imbalance in the dataset. The models trained include Logistic Regression, K-Nearest Neighbors (KNN), Decision Trees, and XGBoost. Hyperparameter tuning was applied to improve the performance of these models using GridSearchCV.
+- **Key Objective**: Accurately predict whether a customer will subscribe to a term deposit, helping banks optimize their marketing campaigns and improve customer acquisition strategies.
+
 ### Bank Customer Churn Prediction
 
 - **Directory**: `bank-customer-churn-prediction`
