@@ -6,6 +6,12 @@ Welcome to my Machine Learning Portfolio! This repository showcases various proj
 
 ## Project List
 
+### Question Pair Classification using BERT
+- **Directory**: `Question Pair Classification`
+- **Description**: The main objective of this project is to build a machine learning model to classify whether two given questions are duplicates or not, based on their semantic meaning. For this task, we used a dataset that contains pairs of questions, along with a target variable `is_duplicate` indicating whether the questions are semantically equivalent. The goal is to determine if the two questions express the same intent, which is important for applications like duplicate question detection, question answering systems, and search engine optimization.
+- **Methods**: We used BERT (Bidirectional Encoder Representations from Transformers) for sequence classification in this project. The text data was preprocessed by converting to lowercase, removing non-alphabetical characters, and tokenizing using the BERT tokenizer. The dataset was split into training and test sets (80%/20%). We fine-tuned the BERT-base-uncased model for binary classification to predict whether two questions are duplicates or not. Hyperparameter tuning was applied to optimize the learning rate, batch size, and number of epochs, with the final configuration set to a learning rate of 2e-5, batch size of 32, and 2 epochs. Training was done using Hugging Face’s Trainer API for efficient model fine-tuning.
+- **Key Objective**: The key objective of this project is to accurately classify pairs of questions as duplicates or not, leveraging **BERT’s transformer architecture** to capture contextual semantic meaning.
+
 ### Bank deposit forecasting project
 
 - **Directory**: `Bank deposit forecasting project`
